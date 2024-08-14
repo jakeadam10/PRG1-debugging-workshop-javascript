@@ -1,9 +1,9 @@
 function getLastDigit(num) {
-    return num.toString()[num.length];
+    return num.toString()[num];
 }
 
 function isMultipleOfFive(n) {
-    console.log(getLastDigit(n));
+    console.log('The value of n -->',n);
     if (getLastDigit(n) === 5 || getLastDigit(n) === 0) {
         return true;
     } else {
