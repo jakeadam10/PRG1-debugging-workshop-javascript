@@ -1,1 +1,1 @@
-# Debuging Workshop 🐛
+# Debugging Workshop 🐛
