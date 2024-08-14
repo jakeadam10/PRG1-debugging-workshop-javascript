@@ -1,7 +1,6 @@
 function convertTo12Hours(time) {
     const hours = time.slice(0,2);
     const minutes = time.slice(-2);
-
     if (hours > 12) {
         return `${hours - 12}:${minutes} pm`
     } else {
@@ -9,4 +8,6 @@ function convertTo12Hours(time) {
     }
 }
 
-console.log(convertTo12Hours('23:59'))
+console.log(convertTo12Hours('12:05')); // <- not quite right!
+
+
