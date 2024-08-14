@@ -9,5 +9,4 @@ function printTimesTable(n) {
 }
 
 printTimesTable(5);  // <-- not quite right
-console.log('\n');
 printTimesTable(3); // <-- completely wrong!

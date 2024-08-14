@@ -3,7 +3,7 @@ function getLastDigit(num) {
 }
 
 function isMultipleOfFive(n) {
-    console.log(getLastDigit(n))
+    console.log(getLastDigit(n));
     if (getLastDigit(n) === 5 || getLastDigit(n) === 0) {
         return true;
     } else {
