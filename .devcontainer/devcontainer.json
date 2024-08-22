@@ -13,6 +13,9 @@
                 "dbaeumer.vscode-eslint",
                 "bierner.emojisense"
             ]
-        }
+        },
+        "settings": {
+            "debug.autoAttach": "disabled"
+          }
     }
 }
