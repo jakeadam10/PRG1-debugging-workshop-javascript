@@ -1,18 +1,17 @@
-# ⚖️ Calculate body mass index 
+# ⚖️ Calculate BMI (**B**ody **M**ass **I**ndex)
 
 ## Problem statement
 
-The BMI is calculated by dividing an adult's weight in kilograms by their height in metres squared.
-
-For example, if you weigh 70kg (around 11 stone) and are 1.70m (around 5 foot 7 inches) tall, you work out your BMI by:
-
-1. squaring your height in metres: 1.70 x 1.70 = 2.89
-2. dividing your weight in kilograms: 70 ÷ 2.89 = 24.22
-
-Your result will be displayed to one decimal place, for example, 24.2
-
-Source: https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/calculate-bmi-for-adults
+Body Mass Index (BMI) is a simple measure that uses your height and weight to work out if your weight is healthy. The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight, or obese based on that value. However, it's important to remember that BMI is not a perfect measure because it does not account for body composition. We need a way to calculate a person's BMI given their weight and height.
 
 ## Expected behaviour
 
-calculateBMI(70,1.7) // expected output is …
+Let's say we're implementing a function called `calculateBodyMassIndex`. We expect `calculateBodyMassIndex` to behave in the following way:
+
+```js
+calculateBodyMassIndex(70, 1.75) // should return approximately 22.86 (for 70 kg and 1.75 m)
+calculateBodyMassIndex(68, 1.65) // should return approximately 24.98 (for 68 kg and 1.65 m)
+calculateBodyMassIndex(100, 1.82) // should return approximately 30.19 (for 100 kg and 1.82 m)
+```
+
+The function should take two parameters: the person's weight in kilograms and their height in meters. It should return the calculated BMI rounded to two decimal places. The BMI is calculated by dividing the person's weight by the square of their height.
