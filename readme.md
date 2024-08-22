@@ -90,7 +90,6 @@ As a group, you should check you understand the task by going through some probl
 1. `right-angled-triangle`
 1. `fizz-buzz`
 1. `right-angled-triangle`
-1. `is-valid-triangle`
 
 ### 😓 Challenge
 
@@ -98,5 +97,6 @@ In this section, you can develop your skills further by using the [**VSCode debu
 
 1. `multiple-of-five`
 1. `find-century`
+1. `is-valid-triangle`
 1. `text-in-div`
 
