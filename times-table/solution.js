@@ -7,6 +7,3 @@ function printTimesTable(n) {
         i++;
     }
 }
-
-printTimesTable(5); // <-- not quite right 
-printTimesTable(3); // <-- completely wrong!

@@ -3,4 +3,3 @@ function penceToPounds(pence) {
     return `£${pounds.toFixed(2)}`; // Format to two decimal places
   }
 
-  console.log(penceToPounds(253));

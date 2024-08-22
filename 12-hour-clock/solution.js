@@ -8,6 +8,6 @@ function convertTo12Hours(time) {
     }
 }
 
-console.log(convertTo12Hours('12:05')); // <- not quite right!
+// Hint: I recommend calling the function with an input of '12:05'
 
 

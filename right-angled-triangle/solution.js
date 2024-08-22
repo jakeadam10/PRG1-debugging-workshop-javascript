@@ -6,5 +6,4 @@ function drawRightAngledTriangle(n) {
     }
 }
 
-drawRightAngledTriangle(3);
-drawRightAngledTriangle(4);
+
