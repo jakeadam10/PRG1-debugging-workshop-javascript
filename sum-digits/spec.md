@@ -1,3 +1,5 @@
+# 🧮 Sum digits 
+
 ## Problem statement
 
 Let’s consider a number like 2024. It’s digit sum is the sum of each digit in the number. In this case, the digit sum would be 2 + 0 + 2 + 4 to get 8. We need to find a way to calculate the digit sum for any number.
