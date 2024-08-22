@@ -26,27 +26,26 @@ The function should work for any positive integer input, allowing for triangles 
 ```js
 drawRightAngledTriangle(3) // should print:
 ```
-x
-xx
-xxx
-
+```raw
+*
+**
+***
+```
 ```js
 drawRightAngledTriangle(5) // should print:
 ```
-x
-xx
-xxx
-xxxx
-xxxxx
+```raw
+*
+**
+***
+****
+*****
+```
 
 ```js
 drawRightAngledTriangle(1) // should print:
-x
 ```
-
-drawRightAngledTriangle(4) // should print:
-x
-xx
-xxx
-xxxx
+```raw
+*
+```
 
