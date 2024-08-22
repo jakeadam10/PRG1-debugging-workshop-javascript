@@ -73,22 +73,24 @@ We recommend you tackle these problems in the following order. The problems will
 
 ### Warm up
 
-As a group, we recommend you debug the following problems together:
+As a group, you should check you understand the task by going through some problems together and asking questions. We recommend you debug the following problems together:
 
 1. `square`
-2. `increment`
-3. `capitalise`
+1. `increment`
+1. `capitalise`
 
-### Standard
+### 🍎 Core
 
-3. `body-mass-index`
-4. `percentage-change`
+1. `body-mass-index`
+1. `percentage-change`
 1. `pence-to-pounds`
-5. `12-hour-clock`
-6. `times-table`
-7. `right-angled-triangle`
-8. `fizz-buzz`
-9. `right-angled-triangle`
+1. `12-hour-clock`
+1. `times-table`
+1. `rotate-angle`
+1. `right-angled-triangle`
+1. `fizz-buzz`
+1. `right-angled-triangle`
+1. `is-valid-triangle`
 
 ### 😓 Challenge
 
