@@ -2,34 +2,6 @@
 
 ## Problem statement
 
-We can print out the **2 times table** in the following format:
-
-We want to print the times table for any number from 1 to 12.
-
-We could also print out the 3 times table in a similar format:
-
-$$
-1\times3 = 3 \\
-2\times3 = 6 \\
-3\times3 = 9 \\
-4\times3 = 12 \\
-5\times3 = 15 \\
-... \\
-12\times3 = 36
-
-$$
-
-## Expected behaviour
-
-Given   Goal
-
-`printTimesTable(2)`    // prints 1x2 = 2\n2x2 = 4…
-
-`printTimesTable(4)`    // prints 2x2 = 4 …
-
-
-## Problem statement
-
 Multiplication tables are fundamental tools in mathematics education, helping students learn and memorize basic multiplication facts. These tables show the product of two numbers for a range of values, typically from 1 to 10 or 1 to 12. Creating such a table manually can be time-consuming and error-prone. We need a way to automatically generate a multiplication table for a given number, showing its products with a range of integers.
 
 ## Expected behaviour
