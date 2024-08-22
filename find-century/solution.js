@@ -17,5 +17,4 @@ function getOrdinalSuffix(n) {
   }
 }
 
-
-console.log(findCentury(1066)); // <-- should be in the "11st century"
+// Hint: Start by calling findCentury with an input of 1066. What should you expect to see?
