@@ -8,6 +8,5 @@ function printTimesTable(n) {
     }
 }
 
-printTimesTable(5); // <-- not quite right
-console.log();  
+printTimesTable(5); // <-- not quite right 
 printTimesTable(3); // <-- completely wrong!
