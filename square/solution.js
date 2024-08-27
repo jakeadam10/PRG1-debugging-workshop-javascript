@@ -3,4 +3,4 @@ function square(num) {
 }
 
 
-console.log(square(5));
+square(5);
