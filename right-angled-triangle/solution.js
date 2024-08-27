@@ -6,4 +6,3 @@ function drawRightAngledTriangle(n) {
     }
 }
 
-
