@@ -26,7 +26,7 @@ This discrepancy can arise in various ways, such as:
 - Security vulnerabilities
 - Performance issues
 
-> 🔑 Debugging is the process of identifying, analyzing, and resolving these discrepancies to align the actual behaviour of the program with its expected behaviour.
+> 🔑 Debugging is the process of identifying, analysing, and resolving these discrepancies to align the actual behaviour of the program with its expected behaviour.
 
 ## A Brief Guide to Debugging
 
