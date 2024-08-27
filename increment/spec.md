@@ -8,7 +8,7 @@ You are tasked with implementing a function that increases a given number by 1.
 
 We're implementing a function called `increment` to solve this problem statement.
 
-## Expected Behaviour
+### Expected Behaviour
 
 The function should:
 

@@ -13,7 +13,7 @@ We're implementing a function called `isPalindrome` to solve this problem statem
 - An empty string should be considered a palindrome.
 
 
-## Function Signature
+### Function Signature
 ```javascript
 function isPalindrome(str)
 ```
@@ -23,8 +23,6 @@ function isPalindrome(str)
 
 ### Return Value
 - (boolean): Returns `true` if the input string is a palindrome, `false` otherwise.
-
-
 
 ## Use cases
 ```javascript

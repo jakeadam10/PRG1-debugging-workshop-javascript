@@ -8,19 +8,8 @@ In many applications involving geometry, graphics, or physics, we often need to 
 
 We're going to implement a function called `rotateAngle` to solve this problem statement.
 
-### Function Signature
-```javascript
-function rotateAngleByDegrees(initialAngle, rotation)
-```
-
-### Parameters
-- `initialAngle` (number): The initial angle in degrees (an integer between 0 and 359, inclusive)
-- `rotation` (number): The rotation in degrees (an integer, positive or negative)
-
-### Return Value
-- (number): The new angle after rotation, as an integer between 0 and 359 (inclusive)
-
 ### Expected Behaviour
+
 The function should:
 
 1. Take the initial angle and apply the specified rotation
@@ -33,6 +22,20 @@ The function should:
 - Positive rotations move clockwise, negative rotations move counterclockwise
 - The result should always be normalized to fall between 0 and 359 degrees (inclusive)
 - Full rotations (multiples of 360 degrees) should result in the same angle as the starting angle
+
+### Function Signature
+```javascript
+function rotateAngleByDegrees(initialAngle, rotation)
+```
+
+### Parameters
+- `initialAngle` (number): The initial angle in degrees (an integer between 0 and 359, inclusive)
+- `rotation` (number): The rotation in degrees (an integer, positive or negative)
+
+### Return Value
+- (number): The new angle after rotation, as an integer between 0 and 359 (inclusive)
+
+
 
 ## Examples
 ```javascript

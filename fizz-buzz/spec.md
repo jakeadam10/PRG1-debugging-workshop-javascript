@@ -4,11 +4,11 @@
 
 FizzBuzz is a classic programming problem often used in coding interviews. The task is to print a sequence of numbers, but with a twist. For multiples of three, instead of the number, print "Fizz". For multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz". This problem tests a programmer's ability to handle multiple conditions and loop structures, as well as their understanding of divisibility rules.
 
-## Function Specification
+## 📋 Function Specification
 
 We're implementing a function called `fizzBuzz` to solve this problem statement.
 
-## Function Signature
+### Function Signature
 ```javascript
 function fizzBuzz(n)
 ```

@@ -8,6 +8,17 @@ In many programming scenarios, we need to determine if a number is divisible by 
 
 We're going to implement a function called `isMultipleOfFive` to solve this problem statement.
 
+### Expected Behaviour
+The function should:
+
+1. Check if the input number is divisible by 5 without a remainder
+2. Return `true` if it is divisible by 5, `false` otherwise
+
+### Rules
+- The function should work for any integer input (positive, negative, or zero)
+- It should correctly identify multiples of 5 for both positive and negative numbers
+- Zero should be considered a multiple of 5
+
 ### Function Signature
 ```javascript
 function isMultipleOfFive(n)
@@ -21,16 +32,7 @@ function isMultipleOfFive(n)
   - `true` if the input number is a multiple of 5
   - `false` if the input number is not a multiple of 5
 
-### Expected Behaviour
-The function should:
 
-1. Check if the input number is divisible by 5 without a remainder
-2. Return `true` if it is divisible by 5, `false` otherwise
-
-### Rules
-- The function should work for any integer input (positive, negative, or zero)
-- It should correctly identify multiples of 5 for both positive and negative numbers
-- Zero should be considered a multiple of 5
 
 ## Examples
 ```javascript

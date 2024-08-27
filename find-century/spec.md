@@ -1,14 +1,14 @@
 # 📆 Find century
 
-## Problem 
+## Problem statement
 
 We need to find the century for a given year with the appropriate ordinal suffix (e.g., "11th", "21st").
 
-## Function Signature
+## 📋 Function Signature
 
 We're going to implement a function called `findCentury` to solve this problem statement.
 
-## Expected behaviour
+### Expected behaviour
 
 1. The century is calculated by dividing the year minus 1 by 100 and rounding down, then adding 1.
 2. The appropriate ordinal suffix is determined based on the last digit of the century.
@@ -24,7 +24,7 @@ function findCentury(year)
 ### Return Value
 - (string): The century with its ordinal suffix
 
-## Helper Function: getOrdinalSuffix
+## Helper Function: `getOrdinalSuffix`
 This function determines the appropriate ordinal suffix for a number.
 
 ```javascript

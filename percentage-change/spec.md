@@ -16,6 +16,15 @@ The function should:
 3. Round the result to the nearest whole number
 4. Not include the percentage symbol in the return value
 
+
+### Rules
+- The function should handle both increases and decreases in value
+- The result should be rounded to the nearest whole number
+- Positive changes (increases) should return positive numbers
+- Negative changes (decreases) should return negative numbers
+- No change should return 0
+- The function should not include the percentage symbol in its return value
+
 ### Function Signature
 ```javascript
 function calculatePercentageChange(original, new)
@@ -28,13 +37,6 @@ function calculatePercentageChange(original, new)
 ### Return Value
 - (number): The percentage change rounded to the nearest whole number
 
-### Rules
-- The function should handle both increases and decreases in value
-- The result should be rounded to the nearest whole number
-- Positive changes (increases) should return positive numbers
-- Negative changes (decreases) should return negative numbers
-- No change should return 0
-- The function should not include the percentage symbol in its return value
 
 ## Examples
 ```javascript

@@ -8,17 +8,6 @@ In the United Kingdom and some other countries, the currency is divided into pou
 
 We're implementing a function called `convertFromPenceToPounds` to solve this problem statement.
 
-### Function Signature
-```javascript
-function convertFromPenceToPounds(pence)
-```
-
-### Parameters
-- `pence` (number): An integer representing the amount in pence
-
-### Return Value
-- (string): A string representing the amount in pounds and pence, formatted as currency
-
 ### Expected Behaviour
 The function should:
 
@@ -33,6 +22,18 @@ The function should:
 - Always show two decimal places for the pence, even if they're zero
 - Correctly handle amounts less than one pound
 - The function should work for any non-negative integer input
+
+### Function Signature
+```javascript
+function convertFromPenceToPounds(pence)
+```
+
+### Parameters
+- `pence` (number): An integer representing the amount in pence
+
+### Return Value
+- (string): A string representing the amount in pounds and pence, formatted as currency
+
 
 ## Examples
 ```javascript
