@@ -4,14 +4,33 @@
 
 Body Mass Index (BMI) is a simple measure that uses your height and weight to work out if your weight is healthy. The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight, or obese based on that value. However, it's important to remember that BMI is not a perfect measure because it does not account for body composition. We need a way to calculate a person's BMI given their weight and height.
 
-## Expected behaviour
+## 📋 Function Specification
 
-Let's say we're implementing a function called `calculateBodyMassIndex`. We expect `calculateBodyMassIndex` to behave in the following way:
+The function should work for any valid weight and height inputs, assuming weight is in kilograms and height is in meters.
 
-```js
-calculateBodyMassIndex(70, 1.75) // should return approximately 22.86 (for 70 kg and 1.75 m)
-calculateBodyMassIndex(68, 1.65) // should return approximately 24.98 (for 68 kg and 1.65 m)
-calculateBodyMassIndex(100, 1.82) // should return approximately 30.19 (for 100 kg and 1.82 m)
+## Function Signature
+```javascript
+function calculateBMI(weight, height)
 ```
 
-The function should take two parameters: the person's weight in kilograms and their height in meters. It should return the calculated BMI rounded to two decimal places. The BMI is calculated by dividing the person's weight by the square of their height.
+### Parameters
+- `weight` (number): The person's weight in kilograms
+- `height` (number): The person's height in meters
+
+### Return Value
+- (number): The calculated BMI rounded to two decimal places
+
+### Expected Behaviour
+The function should:
+
+1. Take the person's weight in kilograms and height in meters as input
+2. Calculate the BMI using the formula: BMI = weight / (height * height)
+3. Round the result to two decimal places
+4. Return the calculated BMI as a number
+
+## Examples
+```javascript
+calculateBMI(70, 1.75) // should return 22.86
+calculateBMI(68, 1.65) // should return 24.98
+calculateBMI(100, 1.82) // should return 30.19
+```
