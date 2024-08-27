@@ -17,22 +17,25 @@ The function should:
 3. Return the result of this addition
 
 ### Function Signature
+
 ```javascript
 function increment(num)
 ```
 
 ### Parameters
+
 - `num` (number): The input number to be incremented
 
 ### Return Value
+
 - (number): The result of adding 1 to the input number
 
-
 ## Examples
+
 ```javascript
-increment(5)  // should return 6
-increment(-3) // should return -2
-increment(0)  // should return 1
-increment(99) // should return 100
-increment(-1) // should return 0
+increment(5); // should return 6
+increment(-3); // should return -2
+increment(0); // should return 1
+increment(99); // should return 100
+increment(-1); // should return 0
 ```

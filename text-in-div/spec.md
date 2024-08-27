@@ -9,6 +9,7 @@ This problem involves formatting some text to fit in a given width.
 We're implementing a function called `textInDiv` to solve this problem statement.
 
 ### Expected Behaviour
+
 The function should:
 
 1. Accept a string of text and a maximum line width as input
@@ -20,46 +21,49 @@ The function should:
 4. Return the formatted text as a single string
 
 ### Function Signature
+
 ```javascript
 function textInDiv(text, maxWidth)
 ```
 
 ### Parameters
+
 - `text` (string): The input text to be formatted
 - `maxWidth` (number): The maximum width of each line in characters
 
 ### Return Value
+
 - (string): The formatted text with line breaks inserted
 
 ## Examples
 
 ```javascript
-    textInDiv("Ada National College for Digital Skills", 15);
-    // -> "Ada National\n
-    //     College for\n
-    //     Digital Skills"
+textInDiv("Ada National College for Digital Skills", 15);
+// -> "Ada National\n
+//     College for\n
+//     Digital Skills"
 ```
 
 ```javascript
-    textInDiv("Ada National College for Digital Skills", 20);
-    // -> "Ada National College\n
-    //     for Digital Skills"
+textInDiv("Ada National College for Digital Skills", 20);
+// -> "Ada National College\n
+//     for Digital Skills"
 ```
 
 ```javascript
-    textInDiv("Ada National College for Digital Skills", 30);
-    // -> "Ada National College for\n
-    //     Digital Skills"
+textInDiv("Ada National College for Digital Skills", 30);
+// -> "Ada National College for\n
+//     Digital Skills"
 ```
 
 ```javascript
-    const str = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec consectetur risus. Cras vel urna a tellus dapibus consequat. Duis bibendum tincidunt viverra. Phasellus dictum efficitur sem quis porttitor. Mauris luctus auctor diam id ultrices. Praesent laoreet in enim ut placerat. Praesent a facilisis turpis."
+const str =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec consectetur risus. Cras vel urna a tellus dapibus consequat. Duis bibendum tincidunt viverra. Phasellus dictum efficitur sem quis porttitor. Mauris luctus auctor diam id ultrices. Praesent laoreet in enim ut placerat. Praesent a facilisis turpis.";
 ```
-
 
 ```js
-    textInDiv(str, 30);
-    /* -> "Lorem ipsum dolor sit amet,\n
+textInDiv(str, 30);
+/* -> "Lorem ipsum dolor sit amet,\n
            consectetur adipiscing elit.\n
            Aliquam nec consectetur risus.\n
            Cras vel urna a tellus dapibus\n
@@ -73,9 +77,10 @@ function textInDiv(text, maxWidth)
            turpis."
     */
 ```
+
 ```js
-    textInDiv(str, 50);
-    /* -> "Lorem ipsum dolor sit amet, consectetur adipiscing\n
+textInDiv(str, 50);
+/* -> "Lorem ipsum dolor sit amet, consectetur adipiscing\n
            elit. Aliquam nec consectetur risus. Cras vel urna\n
            a tellus dapibus consequat. Duis bibendum\n
            tincidunt viverra. Phasellus dictum efficitur sem\n
@@ -83,10 +88,4 @@ function textInDiv(text, maxWidth)
            ultrices. Praesent laoreet in enim ut placerat.\n
            Praesent a facilisis turpis."
     */
-
 ```
-
-
-
-
-

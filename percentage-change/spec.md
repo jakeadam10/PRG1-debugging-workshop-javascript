@@ -11,13 +11,14 @@ We're implementing a function called `calculatePercentageChange` to solve the pr
 ### Expected Behaviour
 
 The function should:
+
 1. Calculate the percentage change between the original value and the new value
 2. Return the result as a number, positive for increases and negative for decreases
 3. Round the result to the nearest whole number
 4. Not include the percentage symbol in the return value
 
-
 ### Rules
+
 - The function should handle both increases and decreases in value
 - The result should be rounded to the nearest whole number
 - Positive changes (increases) should return positive numbers
@@ -26,25 +27,27 @@ The function should:
 - The function should not include the percentage symbol in its return value
 
 ### Function Signature
+
 ```javascript
 function calculatePercentageChange(original, new)
 ```
 
 ### Parameters
+
 - `originalValue` (number): The initial value
 - `newValue` (number): The final value
 
 ### Return Value
+
 - (number): The percentage change rounded to the nearest whole number
 
-
 ## Examples
-```javascript
-calculatePercentageChange(100, 120) // should return 20 (because it's a 20% increase)
-calculatePercentageChange(50, 40)   // should return -20 (because it's a 20% decrease)
-calculatePercentageChange(200, 200) // should return 0 (because there's no change)
-calculatePercentageChange(100, 150) // should return 50 (because it's a 50% increase)
-calculatePercentageChange(80, 100)  // should return 25 (because it's a 25% increase)
-calculatePercentageChange(75, 50)   // should return -33 (because it's a 33.33% decrease, rounded to 33)
-```
 
+```javascript
+calculatePercentageChange(100, 120); // should return 20 (because it's a 20% increase)
+calculatePercentageChange(50, 40); // should return -20 (because it's a 20% decrease)
+calculatePercentageChange(200, 200); // should return 0 (because there's no change)
+calculatePercentageChange(100, 150); // should return 50 (because it's a 50% increase)
+calculatePercentageChange(80, 100); // should return 25 (because it's a 25% increase)
+calculatePercentageChange(75, 50); // should return -33 (because it's a 33.33% decrease, rounded to 33)
+```

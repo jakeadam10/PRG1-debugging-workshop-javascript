@@ -21,28 +21,33 @@ The function should:
    - 'c' is their product
 
 ### Rules
+
 - The function should work for any positive integer inputs for both parameters
 - Each line of the table should be printed on a new line
 - The table should start from 1 and go up to 12
 
 ### Function Signature
+
 ```javascript
 function printTimesTable(n)
 ```
 
 ### Parameters
+
 - `number` (number): The number for which the multiplication table is to be generated
 
 ### Return Value
+
 - This function does not return a value. It prints output to the console.
 
-
 ## Examples
+
 ```javascript
-printTimesTable(5)
- // should print:
+printTimesTable(5);
+// should print:
 ```
- ```console
+
+```console
 1 x 5 = 5
 2 x 5 = 10
 3 x 5 = 15
@@ -56,10 +61,12 @@ printTimesTable(5)
 11 x 5 = 55
 12 x 5 = 60
 ```
+
 ```js
-printTimesTable(3) 
+printTimesTable(3);
 // should print:
 ```
+
 ```console
 1 x 3 = 3
 2 x 3 = 6
@@ -74,7 +81,3 @@ printTimesTable(3)
 11 x 3 = 33
 12 x 3 = 36
 ```
-
-
-
-

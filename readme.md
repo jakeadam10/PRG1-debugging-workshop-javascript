@@ -32,8 +32,8 @@ This discrepancy can arise in various ways, such as:
 
 Effective debugging involves several key steps:
 
-1. Establish or clarify the **expected behaviour** of your program. 
-For example, if you call a function with a certain set of inputs, we should expect to get back a particular return value.
+1. Establish or clarify the **expected behaviour** of your program.
+   For example, if you call a function with a certain set of inputs, we should expect to get back a particular return value.
 2. Call the function/program you want to debug.
 3. Identify the difference between the** expected behaviour** and the actual behaviour (what happens when you actually run the code).
 4. Use various strategies (see below) to find out why the bug is occurring.
@@ -42,15 +42,19 @@ For example, if you call a function with a certain set of inputs, we should expe
 ## 🧭 Debugging strategies
 
 ### 🖨️ Printing to the console
+
 In most programming languages, we can print or log variables to check if they're being updated with the correct values during program execution. In JavaScript, for example, we can use `console.log` to log variables to the console, giving us a better idea of what's happening inside our program.
 
 ### 👣 Step Through Execution
+
 Stepping through code, also known as "playing computer," is a technique where you step through the execution of a program line by line to check the values in memory as the program runs. You can do this manually using a piece of paper or use tools like [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) for visualization.
 
 ### 🔬 Static Analysis
+
 [Static analysis](https://www.perforce.com/blog/sca/what-static-analysis#static-01) tools are powerful allies in the battle against bugs. These tools analyze your code without executing it, helping you identify potential issues early in the development process. One popular static analysis tool for JavaScript is ESLint. You will find Eslint installed in this codespace. To check for errors with eslint against a particular directory you can run `eslint <dir-name>` in your terminal.
 
 ### 💡 Rubber Duck Debugging
+
 This technique involves explaining your code, line by line, to an inanimate object (traditionally a rubber duck). By verbalizing your code, you often spot the issue yourself. This method can be surprisingly effective in helping you understand your own code better and identify logical errors.
 
 ## 🎢 Running order
@@ -78,7 +82,6 @@ As a group, you should check you understand the task by going through some probl
 1. `sum-digits`
 1. `count-char`
 
-
 ### 🧠 Challenge
 
 In this section, you can develop your skills further by using the [**VSCode debugger**](https://code.visualstudio.com/docs/editor/debugging) to step through the execution of the code in the problems below. Check out the documentation to familiarise yourself with this tool and debug the code.
@@ -89,4 +92,3 @@ In this section, you can develop your skills further by using the [**VSCode debu
 1. `text-in-div`
 1. `is-palindrome`
 1. `find-closing-parenthesis`
-

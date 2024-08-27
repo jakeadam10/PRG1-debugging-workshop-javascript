@@ -5,15 +5,15 @@ function findCentury(year) {
 
 function getOrdinalSuffix(n) {
   const lastDigit = n % 10;
- 
+
   if (lastDigit === 1) {
-    return 'st';
+    return "st";
   } else if (lastDigit === 2) {
-    return 'nd';
+    return "nd";
   } else if (lastDigit === 3) {
-    return 'rd';
+    return "rd";
   } else {
-    return 'th';
+    return "th";
   }
 }
 

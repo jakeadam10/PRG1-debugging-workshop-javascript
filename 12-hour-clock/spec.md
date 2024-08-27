@@ -9,6 +9,7 @@ Many countries use a 24-hour clock (also known as "military time") where the hou
 We're going to implement a function called `convertTo12HourClock` to solve this problem statement.
 
 ### Expected Behaviour
+
 The function should convert the input 24-hour time to 12-hour time with AM/PM indicator, adhering to the following rules:
 
 1. Midnight (00:00 in 24-hour time) should be converted to 12:00 AM
@@ -19,26 +20,26 @@ The function should convert the input 24-hour time to 12-hour time with AM/PM in
 6. The output should always include the AM/PM indicator
 
 ### Function Signature
+
 ```javascript
 function convertTo12HourClock(time)
 ```
 
 ### Parameters
+
 - `time` (string): A string representing time in 24-hour format (HH:MM)
 
 ### Return Value
+
 - (string): A string representing the same time in 12-hour format with AM/PM indicator
 
-
 ## Examples
+
 ```javascript
-convertTo12HourClock("00:00") // should return "12:00 AM"
-convertTo12HourClock("12:00") // should return "12:00 PM"
-convertTo12HourClock("09:45") // should return "9:45 AM"
-convertTo12HourClock("14:25") // should return "2:25 PM"
-convertTo12HourClock("23:59") // should return "11:59 PM"
-convertTo12HourClock("01:30") // should return "1:30 AM"
+convertTo12HourClock("00:00"); // should return "12:00 AM"
+convertTo12HourClock("12:00"); // should return "12:00 PM"
+convertTo12HourClock("09:45"); // should return "9:45 AM"
+convertTo12HourClock("14:25"); // should return "2:25 PM"
+convertTo12HourClock("23:59"); // should return "11:59 PM"
+convertTo12HourClock("01:30"); // should return "1:30 AM"
 ```
-
-
-

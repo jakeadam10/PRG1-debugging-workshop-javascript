@@ -1,9 +1,5 @@
-
-
-
-
 function increment(n) {
-    return n++;
+  return n++;
 }
 
 // Remember to check the expected behaviour of this program first

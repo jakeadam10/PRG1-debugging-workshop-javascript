@@ -9,21 +9,25 @@ In geometry, a triangle is a shape with three sides. However, not every combinat
 We're going to implement a function called `isValidTriangle` to solve this problem statement.
 
 ### Function Signature
+
 ```javascript
 function isValidTriangle(a, b, c)
 ```
 
 ### Parameters
+
 - `a` (number): Length of the first side of the triangle
 - `b` (number): Length of the second side of the triangle
 - `c` (number): Length of the third side of the triangle
 
 ### Return Value
-- (boolean): 
+
+- (boolean):
   - `true` if the three lengths can form a valid triangle
   - `false` if the three lengths cannot form a valid triangle
 
 ### Expected Behaviour
+
 The function should:
 
 1. Check if all three input values are positive numbers greater than zero
@@ -34,18 +38,20 @@ The function should:
 3. Return `true` if both conditions above are met, `false` otherwise
 
 ## Examples
+
 ```javascript
-isValidTriangle(3, 4, 5)    // should return true
-isValidTriangle(5, 12, 13)  // should return true
-isValidTriangle(1, 1, 1)    // should return true
-isValidTriangle(1, 2, 3)    // should return false
-isValidTriangle(2, 4, 2)    // should return false
-isValidTriangle(7, 3, 2)    // should return false
-isValidTriangle(0, 0, 0)    // should return false
-isValidTriangle(-1, 2, 3)   // should return false
+isValidTriangle(3, 4, 5); // should return true
+isValidTriangle(5, 12, 13); // should return true
+isValidTriangle(1, 1, 1); // should return true
+isValidTriangle(1, 2, 3); // should return false
+isValidTriangle(2, 4, 2); // should return false
+isValidTriangle(7, 3, 2); // should return false
+isValidTriangle(0, 0, 0); // should return false
+isValidTriangle(-1, 2, 3); // should return false
 ```
 
 ## Additional Considerations
+
 - The function should work with both integer and floating-point numbers
 - The function should return `false` for any invalid inputs (negative numbers or zero)
 - This function helps reinforce understanding of geometric principles and conditional logic

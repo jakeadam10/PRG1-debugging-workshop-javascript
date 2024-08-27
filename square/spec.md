@@ -9,6 +9,7 @@ In mathematics, squaring a number means multiplying it by itself. This operation
 We're implementing a function called `square` to solve this problem statement.
 
 ### Expected Behaviour
+
 The function should:
 
 1. Accept a single number as input (integer or floating-point)
@@ -16,22 +17,25 @@ The function should:
 3. Return the result of this calculation
 
 ### Function Signature
+
 ```javascript
 function square(num)
 ```
 
 ### Parameters
+
 - `num` (number): The number to be squared (can be integer or floating-point)
 
 ### Return Value
+
 - (number): The square of the input number
 
 ## Examples
-```javascript
-square(4)       // should return 16
-square(-3)      // should return 9
-square(0)       // should return 0
-square(2.5)     // should return 6.25
-square(-1.5)    // should return 2.25
-```
 
+```javascript
+square(4); // should return 16
+square(-3); // should return 9
+square(0); // should return 0
+square(2.5); // should return 6.25
+square(-1.5); // should return 2.25
+```

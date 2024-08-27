@@ -1,4 +1,4 @@
-## 🔄 Rotate angle 
+## 🔄 Rotate angle
 
 ## Problem statement
 
@@ -17,6 +17,7 @@ The function should:
 3. Return the new angle as an integer
 
 ## Rules
+
 - The initial angle should always be between 0 and 359 degrees (inclusive)
 - The rotation can be any integer (positive, negative, or zero)
 - Positive rotations move clockwise, negative rotations move counterclockwise
@@ -24,27 +25,29 @@ The function should:
 - Full rotations (multiples of 360 degrees) should result in the same angle as the starting angle
 
 ### Function Signature
+
 ```javascript
 function rotateAngleByDegrees(initialAngle, rotation)
 ```
 
 ### Parameters
+
 - `initialAngle` (number): The initial angle in degrees (an integer between 0 and 359, inclusive)
 - `rotation` (number): The rotation in degrees (an integer, positive or negative)
 
 ### Return Value
+
 - (number): The new angle after rotation, as an integer between 0 and 359 (inclusive)
 
-
-
 ## Examples
+
 ```javascript
-rotateAngleByDegrees(45, 45)    // should return 90
-rotateAngleByDegrees(350, 15)   // should return 5
-rotateAngleByDegrees(0, 360)    // should return 0
-rotateAngleByDegrees(180, -180) // should return 0
-rotateAngleByDegrees(270, 180)  // should return 90
-rotateAngleByDegrees(90, -100)  // should return 350
-rotateAngleByDegrees(0, 720)    // should return 0
-rotateAngleByDegrees(45, -405)  // should return 0
+rotateAngleByDegrees(45, 45); // should return 90
+rotateAngleByDegrees(350, 15); // should return 5
+rotateAngleByDegrees(0, 360); // should return 0
+rotateAngleByDegrees(180, -180); // should return 0
+rotateAngleByDegrees(270, 180); // should return 90
+rotateAngleByDegrees(90, -100); // should return 350
+rotateAngleByDegrees(0, 720); // should return 0
+rotateAngleByDegrees(45, -405); // should return 0
 ```
