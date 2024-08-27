@@ -4,24 +4,38 @@
 
 You are tasked with implementing a function that modifies the capitalization of a given input string. The function should change the first character of the input string to uppercase while leaving the rest of the characters in their original case.
 
-## Expected behaviour
+## Function Specification
 
-Let’ s say we’re implementing a function called `capitalise` to solve the problem statement.
+We're implementing a function called `capitalise` to solve this problem statement.
 
-Your function `capitalise` should:
+## Expected Behaviour
+The function should:
 
-1. Accept a single string as input.
-2. Capitalize the first character of the string if it's a letter.
-3. Leave all other characters in their original case.
-4. Return the transformed string.
+1. Accept a single string as input
+2. If the first character of the string is a letter:
+   - Capitalize this first character
+3. Leave all other characters in their original case
+4. Return the transformed string
 
-For example:
-
-```js
-capitalise('hello')
-
+### Function Signature
+```javascript
+function capitalise(str)
 ```
 
-- If given the input "hello", the function should return "Hello".
-- If given the input "WORLD", the function should return "WORLD".
-- If given the input "42 is the answer", the function should return "42 is the answer".
+### Parameters
+- `str` (string): The input string to be capitalized
+
+### Return Value
+- (string): The transformed string with the first character capitalized (if it's a letter)
+
+
+
+## Examples
+```javascript
+capitalise("hello") // should return "Hello"
+capitalise("john") // should return "John"
+capitalise("alice in wonderland") // should return "Alice in wonderland"
+capitalise("1st place") // should return "1st place"
+capitalise("") // should return ""
+capitalise("already Capitalized") // should return "Already Capitalized"
+```
