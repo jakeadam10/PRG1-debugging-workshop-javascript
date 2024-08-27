@@ -2,11 +2,11 @@
 
 function textInDiv(text, width) {
     if(width < 15) return "INVALID INPUT";
-    var formattedText = '';
+    let formattedText = '';
     while (width < text.length) {
-      var splitPoint = text.lastIndexOf(' ', width);
+      const splitPoint = text.lastIndexOf(' ', width);
       formattedText += text.slice(0, splitPoint) + '\n';
-      text = text.slice(splitPoint + 1);
+      text = text.slice(splitPoint);
     }
   
     formattedText = formattedText + text;
