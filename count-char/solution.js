@@ -9,5 +9,4 @@ function countChar(string, target) {
     } while (i < target.length)
         return count;
 }
-
-console.log(countChar('aaaabbbcc','b')); // <-- should return 3
+countChar('aaaabbbcc','b'); // <-- should return 3
