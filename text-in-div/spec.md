@@ -33,6 +33,30 @@ function textInDiv(text, maxWidth)
 
 ## Examples
 
+```javascript
+    textInDiv("Ada National College for Digital Skills", 15);
+    // -> "Ada National\n
+    //     College for\n
+    //     Digital Skills"
+```
+
+```javascript
+    textInDiv("Ada National College for Digital Skills", 20);
+    // -> "Ada National College\n
+    //     for Digital Skills"
+```
+
+```javascript
+    textInDiv("Ada National College for Digital Skills", 30);
+    // -> "Ada National College for\n
+    //     Digital Skills"
+```
+
+```javascript
+    const str = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec consectetur risus. Cras vel urna a tellus dapibus consequat. Duis bibendum tincidunt viverra. Phasellus dictum efficitur sem quis porttitor. Mauris luctus auctor diam id ultrices. Praesent laoreet in enim ut placerat. Praesent a facilisis turpis."
+```
+
+
 ```js
     textInDiv(str, 30);
     /* -> "Lorem ipsum dolor sit amet,\n
@@ -63,15 +87,6 @@ function textInDiv(text, maxWidth)
 ```
 
 
-## Additional Considerations
-- The function should handle various input lengths, from very short to very long texts
-- It should work with different maximum width values
-- The function should preserve existing line breaks in the input text
-- It should handle edge cases such as very long words that exceed the maximum width
-- Proper handling of punctuation at line breaks may be necessary
-- The function should trim leading and trailing spaces from each line
 
-## Expected behaviour
 
-Your function should divide the given text into lines using newline characters. It should fit as many words into each line as possible without exceeding the given width or splitting any words between two lines. There should not be a space at the beginning or end of any line. The minimum input for the width is 15. Anything below 15 should return "INVALID INPUT"
 
