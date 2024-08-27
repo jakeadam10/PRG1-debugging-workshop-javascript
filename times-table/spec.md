@@ -11,28 +11,33 @@ Let's say we're implementing a function called `printMultiplicationTable`. We ex
 ```js
 printMultiplicationTable(5) // should print:
 ```
-$$
-1\times5 = 5 \\
-2\times5 = 10 \\
-3\times5 = 15 \\
-4\times5 = 20 \\
-5\times5 = 25 \\
-... \\
-12\times5 = 60
-$$
+
+```raw
+1 x 5 = 5
+2 x 5 = 10
+3 x 5 = 15
+4 x 5 = 20
+5 x 5 = 25
+.
+.
+.
+12 x 5 = 60
+```
 
 ```js
 printMultiplicationTable(3) // should print:
 ```
-$$
-1\times3 = 3 \\
-2\times3 = 6 \\
-3\times3 = 9 \\
-4\times3 = 12 \\
-5\times3 = 15 \\
-... \\
-12\times3 = 36
-$$
+```raw
+1 x 3 = 3 
+2 x 3 = 6 
+3 x 3 = 9 
+4 x 3 = 12 
+5 x 3 = 15 
+.
+.
+. 
+12 x 3 = 36
+```
 
 The function should take two parameters:
 
