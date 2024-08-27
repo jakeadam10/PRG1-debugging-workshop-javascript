@@ -11,5 +11,3 @@ function isMultipleOfFive(n) {
     }
 }
 
-console.log(isMultipleOfFive(6));
-console.log(isMultipleOfFive(5));
