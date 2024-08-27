@@ -2,23 +2,11 @@
 
 ## Problem statement
 
-### Fitting text in a certain space
-
-This problem involves implementing a function that takes two arguments, text and width, and formats the text to fit the width.
+This problem involves formatting some text to fit in a given width.
 
 ## 📋 Function Specification
 
-### Function Signature
-```javascript
-function textInDiv(str, maxWidth)
-```
-
-### Parameters
-- `str` (string): The input text to be formatted
-- `maxWidth` (number): The maximum width of each line in characters
-
-### Return Value
-- (string): The formatted text with line breaks inserted
+We're implementing a function called `textInDiv` to solve this problem statement.
 
 ### Expected Behaviour
 The function should:
@@ -30,6 +18,18 @@ The function should:
    - Lines are as long as possible within the width constraint (greedy approach)
 3. Join the resulting lines with newline characters (\n)
 4. Return the formatted text as a single string
+
+### Function Signature
+```javascript
+function textInDiv(text, maxWidth)
+```
+
+### Parameters
+- `text` (string): The input text to be formatted
+- `maxWidth` (number): The maximum width of each line in characters
+
+### Return Value
+- (string): The formatted text with line breaks inserted
 
 ## Examples
 

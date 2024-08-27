@@ -4,7 +4,9 @@
 
 In geometry, a triangle is a shape with three sides. However, not every combination of three lengths can form a valid triangle. A fundamental rule in triangle construction is that the sum of the lengths of any two sides must be greater than the length of the remaining side. This rule ensures that the triangle can be closed. We need a function that can determine whether three given lengths can form a valid triangle. This function could be useful in various geometric applications, including computer graphics, game development, or mathematical problem-solving.
 
-# 📋 Function Specification
+## 📋 Function Specification
+
+We're going to implement a function called `isValidTriangle` to solve this problem statement.
 
 ### Function Signature
 ```javascript

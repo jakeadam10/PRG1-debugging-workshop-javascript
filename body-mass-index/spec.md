@@ -6,7 +6,15 @@ Body Mass Index (BMI) is a simple measure that uses your height and weight to wo
 
 ## 📋 Function Specification
 
-The function should work for any valid weight and height inputs, assuming weight is in kilograms and height is in meters.
+We're going to implement a function called `calculateBMI` to solve this problem statement. The function should work for any valid weight and height inputs, assuming weight is in kilograms and height is in meters.
+
+### Expected Behaviour
+The function should:
+
+1. Take the person's weight in kilograms and height in meters as input
+2. Calculate the BMI using the formula: BMI = weight / (height * height)
+3. Round the result to two decimal places
+4. Return the calculated BMI as a number
 
 ## Function Signature
 ```javascript
@@ -20,13 +28,6 @@ function calculateBMI(weight, height)
 ### Return Value
 - (number): The calculated BMI rounded to two decimal places
 
-### Expected Behaviour
-The function should:
-
-1. Take the person's weight in kilograms and height in meters as input
-2. Calculate the BMI using the formula: BMI = weight / (height * height)
-3. Round the result to two decimal places
-4. Return the calculated BMI as a number
 
 ## Examples
 ```javascript

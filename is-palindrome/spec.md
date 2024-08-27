@@ -2,6 +2,17 @@
 
 A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, disregarding spaces, punctuation, and capitalization. We need to determine whether a given string is a palindrome. 
 
+
+## 📋 Function specification
+
+We're implementing a function called `isPalindrome` to solve this problem statement.
+
+### Expected Behaviour
+- The function should return `true` for palindromes and `false` for non-palindromes.
+- The function should ignore spaces, punctuation, and capitalization.
+- An empty string should be considered a palindrome.
+
+
 ## Function Signature
 ```javascript
 function isPalindrome(str)
@@ -13,10 +24,7 @@ function isPalindrome(str)
 ### Return Value
 - (boolean): Returns `true` if the input string is a palindrome, `false` otherwise.
 
-### Expected Behaviour
-- The function should return `true` for palindromes and `false` for non-palindromes.
-- The function should ignore spaces, punctuation, and capitalization.
-- An empty string should be considered a palindrome.
+
 
 ## Use cases
 ```javascript

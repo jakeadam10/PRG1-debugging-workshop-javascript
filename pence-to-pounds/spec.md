@@ -6,6 +6,8 @@ In the United Kingdom and some other countries, the currency is divided into pou
 
 ## 📋 Function Specification
 
+We're implementing a function called `convertFromPenceToPounds` to solve this problem statement.
+
 ### Function Signature
 ```javascript
 function convertFromPenceToPounds(pence)

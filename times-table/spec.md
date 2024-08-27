@@ -4,20 +4,12 @@
 
 Multiplication tables are fundamental tools in mathematics education, helping students learn and memorize basic multiplication facts. These tables show the product of two numbers for a range of values, typically from 1 to 10 or 1 to 12. Creating such a table manually can be time-consuming and error-prone. We need a way to automatically generate a multiplication table for a given number, showing its products with a range of integers.
 
-## 📋Function Specification
+## 📋 Function Specification
 
-### Function Signature
-```javascript
-function printMultiplicationTable(n)
-```
-
-### Parameters
-- `number` (number): The number for which the multiplication table is to be generated
-
-### Return Value
-- This function does not return a value. It prints output to the console.
+We're implementing a function called `printTimesTable` to solve this problem statement.
 
 ### Expected Behaviour
+
 The function should:
 
 1. Generate a multiplication table for the given number
@@ -28,14 +20,26 @@ The function should:
    - 'b' is the number for which the table is being generated
    - 'c' is their product
 
-## Rules
+### Rules
 - The function should work for any positive integer inputs for both parameters
 - Each line of the table should be printed on a new line
 - The table should start from 1 and go up to 12
 
+### Function Signature
+```javascript
+function printTimesTable(n)
+```
+
+### Parameters
+- `number` (number): The number for which the multiplication table is to be generated
+
+### Return Value
+- This function does not return a value. It prints output to the console.
+
+
 ## Examples
 ```javascript
-printMultiplicationTable(5)
+printTimesTable(5)
  // should print:
 ```
  ```console
@@ -53,7 +57,7 @@ printMultiplicationTable(5)
 12 x 5 = 60
 ```
 ```js
-printMultiplicationTable(3) 
+printTimesTable(3) 
 // should print:
 ```
 ```console

@@ -6,6 +6,8 @@ In many applications involving geometry, graphics, or physics, we often need to 
 
 ## 📋 Function Specification
 
+We're going to implement a function called `rotateAngle` to solve this problem statement.
+
 ### Function Signature
 ```javascript
 function rotateAngleByDegrees(initialAngle, rotation)

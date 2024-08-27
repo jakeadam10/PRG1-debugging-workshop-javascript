@@ -6,6 +6,8 @@ FizzBuzz is a classic programming problem often used in coding interviews. The t
 
 ## Function Specification
 
+We're implementing a function called `fizzBuzz` to solve this problem statement.
+
 ## Function Signature
 ```javascript
 function fizzBuzz(n)
@@ -30,8 +32,6 @@ The function should:
 
 
 ## Examples
-
-We expect `fizzBuzz` to behave in the following way:
 
 ```js
 fizzBuzz(5) // should print:

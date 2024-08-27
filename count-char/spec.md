@@ -5,19 +5,9 @@
 When working with strings, it's often necessary to count how many times a specific character appears within the text. This operation can be useful in various scenarios, such as analysing text content, validating input, or solving word puzzles. We need a function that can efficiently count the occurrences of a given character in a string, considering both uppercase and lowercase instances of the character as distinct.
 
 
-## Function Specification
+## 📋 Function Specification
 
-### Function Signature
-```javascript
-function countChar(str, char)
-```
-
-### Parameters
-- `str` (string): The string in which to search for the character
-- `char` (string): A single character to search for
-
-### Return Value
-- (number): An integer representing the number of times the specified character appears in the string
+We're going to implement a function called `countChars` to solve this problem statement.
 
 ### Expected Behaviour
 The function should:
@@ -35,6 +25,20 @@ The function should:
 - If the character is not found in the string, it should return 0
 - It should count all occurrences of the character, even if they are consecutive
 
+
+### Function Signature
+```javascript
+function countChar(str, char)
+```
+
+### Parameters
+- `str` (string): The string in which to search for the character
+- `char` (string): A single character to search for
+
+### Return Value
+- (number): An integer representing the number of times the specified character appears in the string
+
+
 ## Examples
 ```javascript
 countChar("hello", 'l')                                        // should return 2
@@ -46,10 +50,3 @@ countChar("The quick brown fox jumps over the lazy dog", 'o')  // should return 
 countChar("", 'a')                                             // should return 0
 countChar("No matches here", 'z')                              // should return 0
 ```
-
-## Additional Considerations
-- The function should handle strings of any length, including very long strings
-- It should be efficient, ideally with a time complexity of O(n) where n is the length of the string
-- The function should handle edge cases, such as when the search character is a space or a newline character
-- It should work correctly with Unicode characters, if the implementation language supports them
-- The function should validate that the second parameter is indeed a single character

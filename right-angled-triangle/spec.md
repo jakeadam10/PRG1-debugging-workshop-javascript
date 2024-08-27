@@ -4,50 +4,51 @@
 
 In programming, we often need to create visual patterns using text characters. One common shape is a right-angled triangle. This triangle is characterized by having one 90-degree angle, with the right angle positioned at the bottom-left corner when drawn with text characters. The challenge is to create a function that can draw such a triangle of any size, using a simple character like 'x' to form the shape.
 
-## Expected behaviour
+## 📋Function Specification
 
-Let's say we're implementing a function called `drawRightAngledTriangle` to satisfy the problem statement.
+We're implementing a function called `drawRightAngledTriangle` to solve the problem statement.
 
-The function should have one parameter:
+### Expected Behaviour
 
-- An integer `n` representing the height of the triangle (which will also be the length of the base)
+The function should:
 
-The function should print the triangle to the console, with each line representing a row of the triangle. The triangle should have the following characteristics:
+1. Accept a positive integer `n` as input
+2. Print a right-angled triangle made of '*' characters to the console
+3. The triangle should have `n` rows
+4. Each row should be printed on a new line
 
-- The first row should have one 'x'
-- Each subsequent row should have one more 'x' than the previous row
-- The last row should have 'n' number of 'x' characters
+### Rules
+- The first row should have one '*' character
+- Each subsequent row should have one more '*' than the previous row
+- The last row should have 'n' number of '*' characters
 - The right angle of the triangle should be at the bottom-left corner
+- The function should work for any positive integer input
 
-The function should work for any positive integer input, allowing for triangles of various sizes to be drawn.
+### Function Signature
+```javascript
+function drawRightAngledTriangle(n)
+```
+
+### Parameters
+- `n` (number): An integer representing the height of the triangle (which will also be the length of the base)
+
+### Return Value
+- This function does not return a value. It prints output to the console.
 
 ## Examples
-
-We expect `drawRightAngledTriangle` to behave in the following way:
-
-```js
+```javascript
 drawRightAngledTriangle(3) // should print:
-```
-```raw
 *
 **
 ***
-```
-```js
+
 drawRightAngledTriangle(5) // should print:
-```
-```raw
 *
 **
 ***
 ****
 *****
-```
 
-```js
 drawRightAngledTriangle(1) // should print:
-```
-```raw
 *
 ```
-

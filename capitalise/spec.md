@@ -29,13 +29,8 @@ function capitalise(str)
 - (string): The transformed string with the first character capitalized (if it's a letter)
 
 
-
 ## Examples
 ```javascript
 capitalise("hello") // should return "Hello"
 capitalise("john") // should return "John"
-capitalise("alice in wonderland") // should return "Alice in wonderland"
-capitalise("1st place") // should return "1st place"
-capitalise("") // should return ""
-capitalise("already Capitalized") // should return "Already Capitalized"
 ```

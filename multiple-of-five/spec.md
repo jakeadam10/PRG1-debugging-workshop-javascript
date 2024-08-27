@@ -6,6 +6,8 @@ In many programming scenarios, we need to determine if a number is divisible by 
 
 ## 📋 Function Specification
 
+We're going to implement a function called `isMultipleOfFive` to solve this problem statement.
+
 ### Function Signature
 ```javascript
 function isMultipleOfFive(n)
