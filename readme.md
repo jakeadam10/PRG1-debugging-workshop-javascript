@@ -15,8 +15,8 @@ The term "bug" in computing has an interesting origin. In 1947, Grace Hopper and
 
 A bug is a flaw or error in a computer program that causes it to produce an incorrect or unexpected result, or to behave in unintended ways. More specifically, a bug occurs when there is a discrepancy between:
 
-- The expected behavior: How the program is intended or specified to function under certain conditions.
-- The actual behavior: How the program actually performs when those conditions are met.
+- The expected behaviour: How the program is intended or specified to function under certain conditions.
+- The actual behaviour: How the program actually performs when those conditions are met.
 
 This discrepancy can arise in various ways, such as:
 
@@ -26,16 +26,16 @@ This discrepancy can arise in various ways, such as:
 - Security vulnerabilities
 - Performance issues
 
-> 🔑 Debugging is the process of identifying, analyzing, and resolving these discrepancies to align the actual behavior of the program with its expected behavior.
+> 🔑 Debugging is the process of identifying, analyzing, and resolving these discrepancies to align the actual behaviour of the program with its expected behaviour.
 
 ## A Brief Guide to Debugging
 
 Effective debugging involves several key steps:
 
-1. Establish or clarify the **expected behavior** of your program. 
+1. Establish or clarify the **expected behaviour** of your program. 
 For example, if you call a function with a certain set of inputs, we should expect to get back a particular return value.
 2. Call the function/program you want to debug.
-3. Identify the difference between the** expected behavior** and the actual behavior (what happens when you actually run the code).
+3. Identify the difference between the** expected behaviour** and the actual behaviour (what happens when you actually run the code).
 4. Use various strategies (see below) to find out why the bug is occurring.
 5. Fix the bug and verify that the program now works as expected.
 
@@ -53,25 +53,11 @@ Stepping through code, also known as "playing computer," is a technique where yo
 ### 💡 Rubber Duck Debugging
 This technique involves explaining your code, line by line, to an inanimate object (traditionally a rubber duck). By verbalizing your code, you often spot the issue yourself. This method can be surprisingly effective in helping you understand your own code better and identify logical errors.
 
-## Additional Tips
-
-1. **Reproduce the bug**: Before you start debugging, make sure you can consistently reproduce the error. This will help you verify when you've fixed the issue.
-
-2. **Divide and conquer**: If you're dealing with a large codebase, try to isolate the bug to a specific section or function. Comment out parts of your code or use binary search to narrow down the location of the bug.
-
-3. **Use version control**: Tools like Git can help you track changes and revert to a working version if needed. They also allow you to create branches for experimenting with fixes without affecting your main codebase.
-
-4. **Read error messages carefully**: Error messages often contain valuable information about what went wrong and where. Don't ignore them!
-
-5. **Take breaks**: Sometimes, stepping away from the problem for a short while can help you come back with fresh eyes and new insights.
-
-Remember, debugging is a skill that improves with practice. Don't get discouraged if you don't find the bug immediately. With persistence and the right strategies, you'll become more efficient at squashing those bugs! 🐛💪
-
 ## 🎢 Running order
 
 We recommend you tackle these problems in the following order. The problems will generally increase in difficulty so it's important you're comfortable with the earlier problems before you start tackling the later problems.
 
-### Warm up
+### 🍵 Warm up
 
 As a group, you should check you understand the task by going through some problems together and asking questions. We recommend you debug the following problems together:
 
@@ -89,9 +75,11 @@ As a group, you should check you understand the task by going through some probl
 1. `rotate-angle`
 1. `right-angled-triangle`
 1. `fizz-buzz`
-1. `right-angled-triangle`
+1. `sum-digits`
+1. `count-char`
 
-### 😓 Challenge
+
+### 🧠 Challenge
 
 In this section, you can develop your skills further by using the [**VSCode debugger**](https://code.visualstudio.com/docs/editor/debugging) to step through the execution of the code in the problems below. Check out the documentation to familiarise yourself with this tool and debug the code.
 
@@ -99,4 +87,6 @@ In this section, you can develop your skills further by using the [**VSCode debu
 1. `find-century`
 1. `is-valid-triangle`
 1. `text-in-div`
+1. `is-palindrome`
+1. `find-closing-parenthesis`
 
