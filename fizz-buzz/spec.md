@@ -4,23 +4,45 @@
 
 FizzBuzz is a classic programming problem often used in coding interviews. The task is to print a sequence of numbers, but with a twist. For multiples of three, instead of the number, print "Fizz". For multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz". This problem tests a programmer's ability to handle multiple conditions and loop structures, as well as their understanding of divisibility rules.
 
-## Expected behaviour
+## Function Specification
 
-Let's say we're implementing a function called `fizzBuzz` to satisfy the problem statement.
+## Function Signature
+```javascript
+function fizzBuzz(n)
+```
 
-The function should have one parameter:
+### Parameters
+- `n` (number): A positive integer representing the number of elements in the sequence to process
 
-- A positive integer n, representing the number of elements in the sequence to process
+### Return Value
+- This function does not return a value. It prints output to the console.
 
+### Expected Behaviour
 The function should:
 
-- Print numbers from 1 to n, each on a new line
-- For multiples of 3, print "Fizz" instead of the number
-- For multiples of 5, print "Buzz" instead of the number
-- For multiples of both 3 and 5, print "FizzBuzz" instead of the number
+1. Process numbers from 1 to n (inclusive)
+2. For each number:
+   - If the number is a multiple of both 3 and 5, print "FizzBuzz"
+   - If the number is a multiple of 3 (but not 5), print "Fizz"
+   - If the number is a multiple of 5 (but not 3), print "Buzz"
+   - If the number is not a multiple of 3 or 5, print the number itself
+3. Each output should be on a new line
 
 
- We expect `fizzBuzz` to behave in the following way:
+## Examples
+
+We expect `fizzBuzz` to behave in the following way:
+
+```js
+fizzBuzz(5) // should print:
+```
+```raw
+1
+2
+Fizz
+4
+Buzz
+```
 
 ```js
 fizzBuzz(15) // should print:
@@ -42,24 +64,3 @@ Fizz
 14
 FizzBuzz
 ```
-
-```js
-fizzBuzz(5) // should print:
-```
-```raw
-1
-2
-Fizz
-4
-Buzz
-```
-
-
-Additional considerations:
-
-- The function should work for any positive integer input
-- It should handle edge cases, such as when n is less than or equal to 0 (in which case it might not print anything)
-- The function doesn't return any value; it only prints to the console
-- The order of checking for multiples matters: check for multiples of both 3 and 5 first, then 3, then 5
-
-This function helps reinforce understanding of loops, conditionals, and the modulo operator, making it an excellent exercise for beginners and a quick test for more experienced programmers.

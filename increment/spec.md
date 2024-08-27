@@ -4,19 +4,41 @@
 
 You are tasked with implementing a function that increases a given number by 1.
 
-## Expected behaviour
+## Function Specification
 
-Let's implement a function called `increment` to solve this problem:
+## Expected Behaviour
+The function should:
 
-- Accept a single number as input.
-- Add 1 to the input number.
-- Return the result of this addition.
+1. Accept a single number as input
+2. Add 1 to the input number
+3. Return the result of this addition
 
-For example:
 
-If given the input 5, the function should return 6.
-If given the input -3, the function should return -2.
-If given the input 0, the function should return 1.
+### Function Signature
+```javascript
+function increment(num)
+```
 
-Note that the function should be able to handle various types of numbers, including positive integers, negative integers, and zero. The function should always return a number that is exactly one more than the input number.
-This problem statement provides a clear, language-agnostic description of what the increment function should accomplish. It outlines the expected behavior without specifying how it should be implemented in any particular programming language. Your students can use this as a guide when debugging the broken source code you provide them.
+### Parameters
+- `num` (number): The input number to be incremented
+
+### Return Value
+- (number): The result of adding 1 to the input number
+
+
+## Examples
+```javascript
+increment(5)  // should return 6
+increment(-3) // should return -2
+increment(0)  // should return 1
+increment(99) // should return 100
+increment(-1) // should return 0
+```
+
+Additional considerations:
+- The function should work for any valid number input, including:
+  - Positive integers
+  - Negative integers
+  - Zero
+- The function should always return a number that is exactly one more than the input number
+- The function should handle edge cases, such as very large numbers or numbers close to the maximum representable value in the programming language being used

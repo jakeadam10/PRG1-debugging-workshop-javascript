@@ -21,7 +21,9 @@ The function should print the triangle to the console, with each line representi
 
 The function should work for any positive integer input, allowing for triangles of various sizes to be drawn.
 
- We expect `drawRightAngledTriangle` to behave in the following way:
+## Examples
+
+We expect `drawRightAngledTriangle` to behave in the following way:
 
 ```js
 drawRightAngledTriangle(3) // should print:
