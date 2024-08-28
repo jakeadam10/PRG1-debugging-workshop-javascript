@@ -22,3 +22,7 @@ function findClosingParenthesis(str, openPos) {
 
   return -1;
 }
+
+
+
+console.log(findClosingParenthesis('Hello, (world). (Something Else).', 2)) // should return 31
