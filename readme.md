@@ -71,10 +71,10 @@ As a group, you should check you understand the task by going through some probl
 
 ### 🍎 Core
 
-1. `body-mass-index`
 1. `percentage-change`
 1. `pence-to-pounds`
 1. `12-hour-clock`
+1. `convert-temperature`
 1. `times-table`
 1. `rotate-angle`
 1. `right-angled-triangle`
