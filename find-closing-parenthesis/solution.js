@@ -1,10 +1,6 @@
-function findClosingParenthesis(str, openPos) {
-  if (str[openPos] !== "(") {
-    return -1;
-  }
-
+function findClosingParenthesis(str, n) {
   let count = 0;
-  let i = openPos;
+  let i = n;
 
   while (i < str.length) {
     if (str[i] === "(") {

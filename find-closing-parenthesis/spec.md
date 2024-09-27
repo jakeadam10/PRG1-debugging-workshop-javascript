@@ -2,7 +2,13 @@
 
 ## Problem statement
 
-We need to find the index of the closing parenthesis that matches the opening parenthesis at a given position in a string. This function is useful in parsing expressions or code snippets that contain nested parentheses.
+Create a function that takes a string containing at least one or more pairs of matched parentheses and a number, n, which represents the nth opening parenthesis.
+
+Your function should find the index position of the closing parenthesis that matches the nth opening parenthesis.
+
+The parentheses will always be matched and valid, and you will only ever get regular parentheses () and no brackets etc.
+
+If the string is empty or no number is given, you should return -1
 
 ## 📋 Function specification
 
@@ -12,20 +18,20 @@ We're implementing a function called `findClosingParenthesis` to solve this prob
 
 - The function should return the correct index of the matching closing parenthesis.
 - It should handle nested parentheses correctly.
-- If the `openPos` doesn't point to an opening parenthesis, it should return -1.
+- If the `n` doesn't point to an opening parenthesis, it should return -1.
 - If there's no matching closing parenthesis, it should return -1.
 - The function should ignore any characters that are not parentheses.
 
 ### Function Signature
 
 ```javascript
-function findClosingParenthesis(str, openPos)
+function findClosingParenthesis(str, n)
 ```
 
 ### Parameters
 
-- `str` (string): The input string containing parentheses.
-- `openPos` (number): The index of the opening parenthesis in the string.
+str (string): The input string containing parentheses.
+n (number): An integer representing which opening parenthesis to match, counting from left to right. For example, n=1 means find the match for the first opening parenthesis, n=2 for the second, and so on.
 
 ### Return Value
 
