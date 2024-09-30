@@ -1,7 +1,10 @@
 function capitalise(word) {
-  word[0] = word[0].toUpperCase();
-  return word;
+  return word[0].toUpperCase() + word.slice(1).toLowerCase();
+
 }
+
+console.log(capitalise("WORLD order"));
+
 
 // I recommend you start by calling capitalise with the string "hello"
 

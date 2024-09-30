@@ -1,8 +1,11 @@
 function sumDigits(num) {
+  numArray = num.toString().split("");
   let sum = 0;
-  while (num > 0) {
-    sum += num % 10;
-    num--;
+  let counter;
+  for (counter = 0; counter < numArray.length; counter++){
+      sum += Number(numArray[counter]);
   }
   return sum;
 }
+
+console.log(sumDigits(6));
