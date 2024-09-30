@@ -20,7 +20,7 @@ The function should:
 
 - The initial angle should always be between 0 and 359 degrees (inclusive)
 - The rotation can be any integer (positive, negative, or zero)
-- Positive rotations move clockwise, negative rotations move counterclockwise
+- Positive rotations move clockwise, negative rotations move counter-clockwise
 - The result should always be normalized to fall between 0 and 359 degrees (inclusive)
 - Full rotations (multiples of 360 degrees) should result in the same angle as the starting angle
 

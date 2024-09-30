@@ -30,8 +30,8 @@ function findClosingParenthesis(str, n)
 
 ### Parameters
 
-str (string): The input string containing parentheses.
-n (number): An integer representing which opening parenthesis to match, counting from left to right. For example, n=1 means find the match for the first opening parenthesis, n=2 for the second, and so on.
+- str (string): The input string containing parentheses.
+- n (number): An integer representing which opening parenthesis to match, counting from left to right. For example, n=1 means find the match for the first opening parenthesis, n=2 for the second, and so on.
 
 ### Return Value
 
@@ -41,26 +41,29 @@ n (number): An integer representing which opening parenthesis to match, counting
 ## Examples
 
 ```javascript
-findClosingParenthesis('');
-  --> -1
+findClosingParenthesis("");
+// should return -1
 ```
 
 ```javascript
-findClosingParenthesis('hello');
-  --> -1
+findClosingParenthesis("hello");
+// should return -1
 ```
 
 ```javascript
-findClosingParenthesis('(hello)', 1);
-  --> 6
+findClosingParenthesis("(hello)", 1);
+// should return 6
 ```
 
 ```javascript
-findClosingParenthesis('Hello, (world). (Something Else).', 2);
-  --> 31
+findClosingParenthesis("Hello, (world). (Something Else).", 2);
+// should return 31
 ```
 
 ```javascript
-findClosingParenthesis('Hello, (world, (foo) bar (something) else), foo (bar) cat', 3);
-  --> 35
+findClosingParenthesis(
+  "Hello, (world, (foo) bar (something) else), foo (bar) cat",
+  3,
+);
+// should return 35
 ```
